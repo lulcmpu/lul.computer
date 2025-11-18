@@ -1,14 +1,14 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f2f2f2;
-    color: #333;
+    background: #121312;
+    color: #DCC9A9;
 }
 
 /* Header */
 header {
     background: #222;
-    color: #fff;
+    color: #DCC9A9;
     padding: 20px;
     text-align: center;
 }
@@ -17,20 +17,16 @@ header {
 main {
     padding: 30px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
 }
 
-/* Button */
-button {
-    padding: 10px 20px;
-    border: none;
-    background: #0078ff;
-    color: white;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #005ec2;
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* Footer */
@@ -39,4 +35,5 @@ footer {
     padding: 10px;
     background: #ddd;
     margin-top: 40px;
+    color: #DCC9A9; 
 }
