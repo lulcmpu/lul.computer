@@ -70,12 +70,20 @@
           gap: 15px;
           border-bottom: 1px solid #444;
           padding-bottom: 10px;
+          
         }
 
         .tabs a {
+          opacity: 0.8;
           color: #DCC9A9;
           text-decoration: none;
           padding: 8px 16px;
+          transition: background-color 0.15s color 0.15s;
+        }
+
+        .tabs a:hover {
+          color: white;
+          border-radius: 8px;
         }
 
     </style>
@@ -84,7 +92,7 @@
     
      <div class="container">
             <nav class="tabs">
-                <a href="index.html" class="tab">Home</a>
+                <a href="home.html" class="tab">Home</a>
                 <a href="window.html" class="tab">Window</a>
                 <a href="socials.html" class="tab">Socials</a>
                 <a href="about.html" class="tab">About</a>
